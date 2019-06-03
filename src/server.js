@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 const PORT = parseInt(process.env.PORT, 10) || 3000;
 
-app.get('/', (req, res) => res.send("{message: 'Hello World'}"));
+app.get('/', (req, res) => res.send("{message: 'Hello World2'}"));
 
 let server = app.listen(PORT, () => {
         console.log(`Listening on port ${PORT}!`);
