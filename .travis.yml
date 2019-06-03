@@ -20,5 +20,5 @@ script:
 
 deploy:
   provider: heroku
-  api_key: "$HEROKU_API_KEY"
+  api_key: "272e2748-d17f-4978-9221-3c9c855486b1"
   app: node-travis-heroku
